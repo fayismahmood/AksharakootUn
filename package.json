@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "ejs": "^2.7.1",
+        "ejs-locals": "^1.0.2",
+        "express": "^4.17.1",
+        "g": "^2.0.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}

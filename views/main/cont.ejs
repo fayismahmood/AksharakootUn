@@ -1,0 +1,76 @@
+<%stylesheet("/style/material/material-components-web.css") -%>
+<%stylesheet("/style/icofont/icofont.min.css") -%>
+<%stylesheet("/style/aksh/cont.css") -%>
+<%stylesheet("/tool/Fonts/fonts.css") -%>
+<%stylesheet("/style/animate.css") -%>
+<%script("/style/material/material-components-web.min.js") -%>
+<%script("/js/jquery-3.4.1.js") -%>
+<%script("/js/libraries/jscolor.js") -%>
+
+<head>
+        <%-stylesheets%>
+        <%-scripts%>
+</head>
+
+<%-body -%>
+<div class="Toolbar">
+        <div class="mdc-card mdc-card--outlined toolsec">
+                <div class="mdc-typography mdc-typography--subtitle1">fonts</div>
+                        <div class="content">
+                                        <div class="font-family item">
+                                                <div class="mdc-text-field" style="width: 200px;">
+                                                        <input type="text" id="" class="mdc-text-field__input">
+                                                        <label class="mdc-floating-label" for="my-text-field">font sel</label>
+                                                        <div class="mdc-line-ripple"></div>
+                                                </div>
+                                        </div>
+                                        <div class="font-size item">
+                                                <div class="mdc-text-field" style="width: 100px;">
+                                                        <input type="text" id="" class="mdc-text-field__input">
+                                                        <label class="mdc-floating-label" for="my-text-field">font sel</label>
+                                                        <div class="mdc-line-ripple"></div>
+                                                </div>
+                                        </div>
+                                       
+                                        <div><button id="" class="color jscolor mdc-fab mdc-fab--mini item"><span style="font-size: 18px" class=" icofont-color-bucket"></span></button></div>
+                                        <div><button  id="" class="background-color jscolor mdc-fab mdc-fab--mini item"><span style="font-size: 18px" class=" icofont-color-bucket"></span></button></div>
+                                        <div class="shadowIn"><button class=" mdc-fab mdc-fab--mini item"></button></div>
+                                        <button onclick="jstleft()" class="mdc-fab mdc-fab--mini item"><i style="font-size: 18px" class="icofont-align-left"></i></button>
+                                        <button onclick="jstCent()" class="mdc-fab mdc-fab--mini item"><i style="font-size: 18px" class="icofont-align-center"></i></button>
+                                        <button onclick="jstRight()" class="mdc-fab mdc-fab--mini item"><i style="font-size: 18px" class="icofont-align-left"></i></button>
+                                        <button onclick="jstFull()" class="mdc-fab mdc-fab--mini item"><i style="font-size: 18px" class="icofont-justify-left"></i></button>
+                        </div>
+        </div>
+       
+        
+</div>
+
+<div id="Navigation">
+
+</div>
+
+<style id="Blgstyle">
+
+</style>
+
+<div class="footer">
+        <img height="40px" src="/img/ico.png" />
+</div>
+
+<script src="/js/app.js"></script>
+<script>
+var fontsize="8,10,14,18,24,28,32,36,40,44,46,48"
+
+selectItemClick(".font-family","<%=aa%>")
+selectItemClick(".font-size",fontsize)
+
+//////color//////
+
+
+
+
+$(".shadowIn>button").click(function(){
+        shadowDig(".shadowIn",'<div>padding:<input id="padding" value="'+padding+'" type="text"/></div><div>margin:<input id="margin" value="'+margine+'" type="text"/></div>')
+})
+
+</script>
