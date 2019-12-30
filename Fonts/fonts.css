@@ -97,4 +97,84 @@
   src: url("NotoSerifMalayalam-Regular.ttf");
   font-family: "NotoSerifMalayalam-Regular";
 }
+
+@font-face {
+  font-family: Aarcha4Blog;
+  src: url("Aarcha4Blog.ttf");
+}
+
+@font-face {
+  font-family: arialbd;
+  src: url("arialbd.ttf");
+}
+
+@font-face {
+  font-family: ARIALN_0;
+  src: url("ARIALN_0.ttf");
+}
+
+@font-face {
+  font-family: ariblk;
+  src: url("ariblk.ttf");
+}
+
+@font-face {
+  font-family: Azeez GIST-MLOTKarthika;
+  src: url("Azeez GIST-MLOTKarthika.ttf");
+}
+
+@font-face {
+  font-family: BalooChettan_0;
+  src: url("BalooChettan_0.ttf");
+}
+
+@font-face {
+  font-family: Deshabhimani_0;
+  src: url("Deshabhimani_0.ttf");
+}
+
+@font-face {
+  font-family: EGGIndulekha_0;
+  src: url("EGGIndulekha_0.ttf");
+}
+
+@font-face {
+  font-family: GEETHANJALI_0;
+  src: url("GEETHANJALI_0.ttf");
+}
+
+@font-face {
+  font-family: ML-NILA01_NewLipi;
+  src: url("ML-NILA01_NewLipi.ttf");
+}
+
+@font-face {
+  font-family: ML-NILA02_0;
+  src: url("ML-NILA02_0.ttf");
+}
+
+@font-face {
+  font-family: ML-NILA03_NewLipi;
+  src: url("ML-NILA03_NewLipi.ttf");
+}
+
+@font-face {
+  font-family: ML-NILA07_0;
+  src: url("ML-NILA07_0.ttf");
+}
+
+@font-face {
+  font-family: ML-NILA07_NewLipi;
+  src: url("ML-NILA07_NewLipi.ttf");
+}
+
+@font-face {
+  font-family: PanchariUniN_0;
+  src: url("PanchariUniN_0.ttf");
+}
+
+@font-face {
+  font-family: SakalBharati Malayalam_N 9.14 _Ship_1;
+  src: url("SakalBharati Malayalam_N 9.14 _Ship_1.ttf");
+}
 /*# sourceMappingURL=fonts.css.map */
